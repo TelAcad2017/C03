@@ -10,7 +10,7 @@ func RandomCarName(is_romanian_car:Bool)->String{
         return "Audi"
     }
 }
-
+//function overwrite
 func RandomCarName(is_romanian_car:Int)->String{
     if is_romanian_car == 1 {
         return "One"
